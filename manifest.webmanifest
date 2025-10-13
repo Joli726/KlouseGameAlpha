@@ -1,0 +1,12 @@
+{
+  "name": "ClickClose",
+  "short_name": "ClickClose",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
