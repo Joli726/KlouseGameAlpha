@@ -29,17 +29,17 @@ gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAn
   }
 
   // Network sync:
-  getNetworkSyncData() {
+  getNetworkSyncData(syncOptions) {
     return {
-      ...super.getNetworkSyncData(),
+      ...super.getNetworkSyncData(syncOptions),
       props: {
         
     Scale: this._behaviorData.Scale,
       }
     };
   }
-  updateFromNetworkSyncData(networkSyncData) {
-    super.updateFromNetworkSyncData(networkSyncData);
+  updateFromNetworkSyncData(networkSyncData, options) {
+    super.updateFromNetworkSyncData(networkSyncData, options);
     
     if (networkSyncData.props.Scale !== undefined)
       this._behaviorData.Scale = networkSyncData.props.Scale;
@@ -81,6 +81,7 @@ gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAn
 
 // Methods:
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.ShakeObject_PositionAngleScaleContext = {};
+gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.ShakeObject_PositionAngleScaleContext.idToCallbackMap = new Map();
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.ShakeObject_PositionAngleScaleContext.GDObjectObjects1= [];
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.ShakeObject_PositionAngleScaleContext.GDObjectObjects2= [];
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.ShakeObject_PositionAngleScaleContext.GDObjectObjects3= [];
@@ -431,6 +432,7 @@ gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAn
 return;
 }
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.doStepPostEventsContext = {};
+gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.doStepPostEventsContext.idToCallbackMap = new Map();
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.doStepPostEventsContext.GDObjectObjects1_1final = [];
 
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.doStepPostEventsContext.GDObjectObjects2_1final = [];
@@ -1998,7 +2000,7 @@ gdjs.copyArray(gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeOb
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(11873188);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(14185532);
 }
 }
 if (isConditionTrue_0) {
@@ -2132,6 +2134,7 @@ gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAn
 return;
 }
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.StopShakingContext = {};
+gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.StopShakingContext.idToCallbackMap = new Map();
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.StopShakingContext.GDObjectObjects1= [];
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.StopShakingContext.GDObjectObjects2= [];
 
@@ -2241,6 +2244,7 @@ gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAn
 return;
 }
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.IsShakingContext = {};
+gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.IsShakingContext.idToCallbackMap = new Map();
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.IsShakingContext.GDObjectObjects1= [];
 gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAngleScale.prototype.IsShakingContext.GDObjectObjects2= [];
 
