@@ -1413,7 +1413,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xcaf528 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x94b478 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // --- настройки
 const SPEED = 500;
@@ -1858,7 +1858,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xcaf528(runtimeScene);
+gdjs.MainScene5Code.userFunc0x94b478(runtimeScene);
 
 }
 
@@ -4271,7 +4271,7 @@ gdjs.MainScene5Code.GDBlackBG3Objects2.length = 0;
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDCloseButtonObjects2Objects = Hashtable.newFrom({"CloseButton": gdjs.MainScene5Code.GDCloseButtonObjects2});
-gdjs.MainScene5Code.userFunc0xc8b210 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xcbd760 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -4591,7 +4591,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xc8b210(runtimeScene);
+gdjs.MainScene5Code.userFunc0xcbd760(runtimeScene);
 
 }
 
@@ -4652,7 +4652,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.MainScene5Code.GDBlackBGObjects2.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBlackBGObjects2Objects, -(500), 0, "GamesLayer");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBlackBGObjects2Objects, -(500), -(1000), "GamesLayer");
 }
 {for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects2.length ;i < len;++i) {
     gdjs.MainScene5Code.GDBlackBGObjects2[i].setZOrder(1);
