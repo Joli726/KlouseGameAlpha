@@ -1413,7 +1413,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xa92bd0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xa92cd0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // --- настройки
 const SPEED = 500;
@@ -1858,7 +1858,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xa92bd0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xa92cd0(runtimeScene);
 
 }
 
@@ -4271,7 +4271,7 @@ gdjs.MainScene5Code.GDBlackBG3Objects2.length = 0;
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDCloseButtonObjects2Objects = Hashtable.newFrom({"CloseButton": gdjs.MainScene5Code.GDCloseButtonObjects2});
-gdjs.MainScene5Code.userFunc0xc7ad48 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xc7ae50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -4591,7 +4591,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xc7ad48(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc7ae50(runtimeScene);
 
 }
 
@@ -8379,7 +8379,7 @@ gdjs.copyArray(runtimeScene.getObjects("TalkLebovskiText"), gdjs.MainScene5Code.
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
-{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Ssssssssssssssssssssssssssssss", "default", false);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Sad", "default", false);
 }
 {for(var i = 0, len = gdjs.MainScene5Code.GDTalkLebovskiTextObjects1.length ;i < len;++i) {
     gdjs.MainScene5Code.GDTalkLebovskiTextObjects1[i].hide();
@@ -8418,7 +8418,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Save") >= 5;
 if (isConditionTrue_0) {
-{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Ssssssssssssssssssssssssssssss", "");
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Sad", "");
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
