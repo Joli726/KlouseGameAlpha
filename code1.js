@@ -1413,7 +1413,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0x106a920 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xa95370 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // --- настройки
 const SPEED = 500;
@@ -1858,7 +1858,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0x106a920(runtimeScene);
+gdjs.MainScene5Code.userFunc0xa95370(runtimeScene);
 
 }
 
@@ -4271,7 +4271,7 @@ gdjs.MainScene5Code.GDBlackBG3Objects2.length = 0;
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDCloseButtonObjects2Objects = Hashtable.newFrom({"CloseButton": gdjs.MainScene5Code.GDCloseButtonObjects2});
-gdjs.MainScene5Code.userFunc0x10802a0 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0x1044ce8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -4591,7 +4591,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0x10802a0(runtimeScene);
+gdjs.MainScene5Code.userFunc0x1044ce8(runtimeScene);
 
 }
 
