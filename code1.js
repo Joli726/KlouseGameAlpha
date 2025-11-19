@@ -477,7 +477,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.MainScene5Code.localVariab
 gdjs.copyArray(asyncObjectsList.getObjects("StartBG"), gdjs.MainScene5Code.GDStartBGObjects2);
 
 {for(var i = 0, len = gdjs.MainScene5Code.GDStartBGObjects2.length ;i < len;++i) {
-    gdjs.MainScene5Code.GDStartBGObjects2[i].getBehavior("Tween").addObjectOpacityTween2("ApasityStartBG", 0, "linear", 2, true);
+    gdjs.MainScene5Code.GDStartBGObjects2[i].getBehavior("Tween").addObjectOpacityTween2("ApasityStartBG", 0, "linear", 1, true);
 }
 }
 gdjs.MainScene5Code.localVariables.length = 0;
@@ -1651,7 +1651,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xacecf8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb78c70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2146,7 +2146,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xacecf8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb78c70(runtimeScene);
 
 }
 
@@ -4643,7 +4643,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xae4a18 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb53fd8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -5005,7 +5005,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xae4a18(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb53fd8(runtimeScene);
 
 }
 
@@ -8513,7 +8513,7 @@ gdjs.MainScene5Code.eventsList46(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0xb03c18 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xddcc00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -9334,7 +9334,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0xb03c18(runtimeScene);
+gdjs.MainScene5Code.userFunc0xddcc00(runtimeScene);
 
 }
 
@@ -9916,7 +9916,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb0b6b8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xde5288 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -10218,7 +10218,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xb0b6b8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xde5288(runtimeScene);
 
 }
 
@@ -10297,7 +10297,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb0c3d8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xde6900 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -10599,14 +10599,14 @@ function __Boss_HandleClick(runtimeScene, buttonIndex) {
   // звук + очки + текст
   if (answer && answer.correct) {
     // правильный ответ
-    gdjs.evtTools.sound.playSound(runtimeScene, "accept", false, 100, 1);
+    gdjs.evtTools.sound.playSound(runtimeScene, "accept.wav", false, 100, 1);
     scoreVar.add(cfg.correctPoints);
     setTxt("BossText", data.success || "");
     vars.get("BossStage").setNumber(stage + 1);
     __Boss_ApplyStage(runtimeScene);
   } else {
     // неправильный ответ
-    gdjs.evtTools.sound.playSound(runtimeScene, "field", false, 100, 1);
+    gdjs.evtTools.sound.playSound(runtimeScene, "field.wav", false, 100, 1);
     scoreVar.add(cfg.wrongPoints);
     setTxt("BossText", data.fail || "");
   }
@@ -11023,7 +11023,7 @@ gdjs.MainScene5Code.eventsList63(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDLebovskiObjects2Objects = Hashtable.newFrom({"Lebovski": gdjs.MainScene5Code.GDLebovskiObjects2});
-gdjs.MainScene5Code.userFunc0xb157c8 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xdf4678 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -11125,7 +11125,7 @@ gdjs.MainScene5Code.eventsList65 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xb0c3d8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xde6900(runtimeScene);
 
 }
 
@@ -11833,7 +11833,7 @@ gdjs.MainScene5Code.GDLebovskiObjects2.length = 0;
 {
 
 
-gdjs.MainScene5Code.userFunc0xb157c8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xdf4678(runtimeScene);
 
 }
 
@@ -11856,7 +11856,7 @@ gdjs.copyArray(runtimeScene.getObjects("TalkLebovskiText"), gdjs.MainScene5Code.
     gdjs.MainScene5Code.GDTalkLebovskiTextObjects1[i].hide();
 }
 }
-{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Assssussss", "default", false);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Asssssusssss", "default", false);
 }
 
 { //Subevents
@@ -11918,7 +11918,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Save") >= 5;
 if (isConditionTrue_0) {
-{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Assssussss", "");
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Asssssusssss", "");
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
