@@ -1651,7 +1651,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb7b230 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb2ab58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2146,7 +2146,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xb7b230(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb2ab58(runtimeScene);
 
 }
 
@@ -4643,7 +4643,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xa9c288 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb7a180 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -5005,7 +5005,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xa9c288(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb7a180(runtimeScene);
 
 }
 
@@ -8513,7 +8513,7 @@ gdjs.MainScene5Code.eventsList46(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0xdde340 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0x958db0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -9334,7 +9334,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0xdde340(runtimeScene);
+gdjs.MainScene5Code.userFunc0x958db0(runtimeScene);
 
 }
 
@@ -9916,7 +9916,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xde69c8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xce5128 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -10218,7 +10218,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xde69c8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xce5128(runtimeScene);
 
 }
 
@@ -10297,7 +10297,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xde8040 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xce67a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -11023,7 +11023,7 @@ gdjs.MainScene5Code.eventsList63(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDLebovskiObjects2Objects = Hashtable.newFrom({"Lebovski": gdjs.MainScene5Code.GDLebovskiObjects2});
-gdjs.MainScene5Code.userFunc0xdf5db8 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xcf4518 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -11125,7 +11125,7 @@ gdjs.MainScene5Code.eventsList65 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xde8040(runtimeScene);
+gdjs.MainScene5Code.userFunc0xce67a0(runtimeScene);
 
 }
 
@@ -11833,7 +11833,7 @@ gdjs.MainScene5Code.GDLebovskiObjects2.length = 0;
 {
 
 
-gdjs.MainScene5Code.userFunc0xdf5db8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xcf4518(runtimeScene);
 
 }
 
@@ -11856,7 +11856,7 @@ gdjs.copyArray(runtimeScene.getObjects("TalkLebovskiText"), gdjs.MainScene5Code.
     gdjs.MainScene5Code.GDTalkLebovskiTextObjects1[i].hide();
 }
 }
-{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Asssssusssss", "default", false);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Assssssusssss", "default", false);
 }
 
 { //Subevents
@@ -11918,7 +11918,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Save") >= 5;
 if (isConditionTrue_0) {
-{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Asssssusssss", "");
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Assssssusssss", "");
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
