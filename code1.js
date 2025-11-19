@@ -453,6 +453,10 @@ gdjs.MainScene5Code.GDStartBGObjects1= [];
 gdjs.MainScene5Code.GDStartBGObjects2= [];
 gdjs.MainScene5Code.GDStartBGObjects3= [];
 gdjs.MainScene5Code.GDStartBGObjects4= [];
+gdjs.MainScene5Code.GDBlackBGObjects1= [];
+gdjs.MainScene5Code.GDBlackBGObjects2= [];
+gdjs.MainScene5Code.GDBlackBGObjects3= [];
+gdjs.MainScene5Code.GDBlackBGObjects4= [];
 
 
 gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDStartBGObjects1Objects = Hashtable.newFrom({"StartBG": gdjs.MainScene5Code.GDStartBGObjects1});
@@ -1635,7 +1639,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0x9806e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb51790 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2130,7 +2134,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0x9806e8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb51790(runtimeScene);
 
 }
 
@@ -4627,7 +4631,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xa8dfc8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x958678 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -4989,12 +4993,13 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xa8dfc8(runtimeScene);
+gdjs.MainScene5Code.userFunc0x958678(runtimeScene);
 
 }
 
 
-};gdjs.MainScene5Code.eventsList36 = function(runtimeScene) {
+};gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBlackBGObjects2Objects = Hashtable.newFrom({"BlackBG": gdjs.MainScene5Code.GDBlackBGObjects2});
+gdjs.MainScene5Code.eventsList36 = function(runtimeScene) {
 
 {
 
@@ -5075,10 +5080,22 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{/* Unknown object - skipped. */}
-{/* Unknown object - skipped. */}
-{/* Unknown object - skipped. */}
-{/* Unknown object - skipped. */}
+gdjs.MainScene5Code.GDBlackBGObjects2.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBlackBGObjects2Objects, -(500), -(1000), "GamesLayer");
+}
+{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects2.length ;i < len;++i) {
+    gdjs.MainScene5Code.GDBlackBGObjects2[i].setZOrder(1);
+}
+}
+{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects2.length ;i < len;++i) {
+    gdjs.MainScene5Code.GDBlackBGObjects2[i].getBehavior("Opacity").setOpacity(0);
+}
+}
+{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects2.length ;i < len;++i) {
+    gdjs.MainScene5Code.GDBlackBGObjects2[i].getBehavior("Tween").addObjectOpacityTween2("BGApacity", 200, "easeInQuart", 0.4, false);
+}
+}
 }
 
 }
@@ -5136,7 +5153,11 @@ isConditionTrue_1 = false;
 isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
-{/* Unknown object - skipped. */}
+gdjs.copyArray(runtimeScene.getObjects("BlackBG"), gdjs.MainScene5Code.GDBlackBGObjects1);
+{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects1.length ;i < len;++i) {
+    gdjs.MainScene5Code.GDBlackBGObjects1[i].getBehavior("Tween").addObjectOpacityTween2("BGApacityOff", 0, "easeOutQuart", 1, true);
+}
+}
 }
 
 }
@@ -8480,7 +8501,7 @@ gdjs.MainScene5Code.eventsList46(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0xd394b0 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xb43ed0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -9301,7 +9322,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0xd394b0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb43ed0(runtimeScene);
 
 }
 
@@ -9883,7 +9904,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xd41b38 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xe16918 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -10185,7 +10206,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xd41b38(runtimeScene);
+gdjs.MainScene5Code.userFunc0xe16918(runtimeScene);
 
 }
 
@@ -10264,7 +10285,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xd431b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xe17f90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -10990,7 +11011,7 @@ gdjs.MainScene5Code.eventsList63(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDLebovskiObjects2Objects = Hashtable.newFrom({"Lebovski": gdjs.MainScene5Code.GDLebovskiObjects2});
-gdjs.MainScene5Code.userFunc0xd50f28 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xb76840 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -11092,7 +11113,7 @@ gdjs.MainScene5Code.eventsList65 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xd431b0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xe17f90(runtimeScene);
 
 }
 
@@ -11800,7 +11821,7 @@ gdjs.MainScene5Code.GDLebovskiObjects2.length = 0;
 {
 
 
-gdjs.MainScene5Code.userFunc0xd50f28(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb76840(runtimeScene);
 
 }
 
@@ -11823,7 +11844,7 @@ gdjs.copyArray(runtimeScene.getObjects("TalkLebovskiText"), gdjs.MainScene5Code.
     gdjs.MainScene5Code.GDTalkLebovskiTextObjects1[i].hide();
 }
 }
-{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Assssssusssss", "default", false);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Assssssussssss", "default", false);
 }
 
 { //Subevents
@@ -11885,7 +11906,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Save") >= 5;
 if (isConditionTrue_0) {
-{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Assssssusssss", "");
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Assssssussssss", "");
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
@@ -12709,6 +12730,10 @@ gdjs.MainScene5Code.GDStartBGObjects1.length = 0;
 gdjs.MainScene5Code.GDStartBGObjects2.length = 0;
 gdjs.MainScene5Code.GDStartBGObjects3.length = 0;
 gdjs.MainScene5Code.GDStartBGObjects4.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects1.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects2.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects3.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects4.length = 0;
 
 gdjs.MainScene5Code.eventsList66(runtimeScene);
 gdjs.MainScene5Code.GDPhoneObjects1.length = 0;
@@ -13155,6 +13180,10 @@ gdjs.MainScene5Code.GDStartBGObjects1.length = 0;
 gdjs.MainScene5Code.GDStartBGObjects2.length = 0;
 gdjs.MainScene5Code.GDStartBGObjects3.length = 0;
 gdjs.MainScene5Code.GDStartBGObjects4.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects1.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects2.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects3.length = 0;
+gdjs.MainScene5Code.GDBlackBGObjects4.length = 0;
 
 
 return;
