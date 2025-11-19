@@ -129,10 +129,6 @@ gdjs.MainScene5Code.GDPooObjects1= [];
 gdjs.MainScene5Code.GDPooObjects2= [];
 gdjs.MainScene5Code.GDPooObjects3= [];
 gdjs.MainScene5Code.GDPooObjects4= [];
-gdjs.MainScene5Code.GDBlackBGObjects1= [];
-gdjs.MainScene5Code.GDBlackBGObjects2= [];
-gdjs.MainScene5Code.GDBlackBGObjects3= [];
-gdjs.MainScene5Code.GDBlackBGObjects4= [];
 gdjs.MainScene5Code.GDPooGameTimerTextObjects1= [];
 gdjs.MainScene5Code.GDPooGameTimerTextObjects2= [];
 gdjs.MainScene5Code.GDPooGameTimerTextObjects3= [];
@@ -149,10 +145,6 @@ gdjs.MainScene5Code.GDVirus3Objects1= [];
 gdjs.MainScene5Code.GDVirus3Objects2= [];
 gdjs.MainScene5Code.GDVirus3Objects3= [];
 gdjs.MainScene5Code.GDVirus3Objects4= [];
-gdjs.MainScene5Code.GDBlackBG2Objects1= [];
-gdjs.MainScene5Code.GDBlackBG2Objects2= [];
-gdjs.MainScene5Code.GDBlackBG2Objects3= [];
-gdjs.MainScene5Code.GDBlackBG2Objects4= [];
 gdjs.MainScene5Code.GDAllClicksObjects1= [];
 gdjs.MainScene5Code.GDAllClicksObjects2= [];
 gdjs.MainScene5Code.GDAllClicksObjects3= [];
@@ -177,10 +169,6 @@ gdjs.MainScene5Code.GDStatisticsPanelObjects1= [];
 gdjs.MainScene5Code.GDStatisticsPanelObjects2= [];
 gdjs.MainScene5Code.GDStatisticsPanelObjects3= [];
 gdjs.MainScene5Code.GDStatisticsPanelObjects4= [];
-gdjs.MainScene5Code.GDBlackBG3Objects1= [];
-gdjs.MainScene5Code.GDBlackBG3Objects2= [];
-gdjs.MainScene5Code.GDBlackBG3Objects3= [];
-gdjs.MainScene5Code.GDBlackBG3Objects4= [];
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects1= [];
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects2= [];
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects3= [];
@@ -217,10 +205,6 @@ gdjs.MainScene5Code.GDArrowFieldZoneObjects1= [];
 gdjs.MainScene5Code.GDArrowFieldZoneObjects2= [];
 gdjs.MainScene5Code.GDArrowFieldZoneObjects3= [];
 gdjs.MainScene5Code.GDArrowFieldZoneObjects4= [];
-gdjs.MainScene5Code.GDBlackBG4Objects1= [];
-gdjs.MainScene5Code.GDBlackBG4Objects2= [];
-gdjs.MainScene5Code.GDBlackBG4Objects3= [];
-gdjs.MainScene5Code.GDBlackBG4Objects4= [];
 gdjs.MainScene5Code.GDClockDownObjects1= [];
 gdjs.MainScene5Code.GDClockDownObjects2= [];
 gdjs.MainScene5Code.GDClockDownObjects3= [];
@@ -1651,7 +1635,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb2ab58 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x9806e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2146,7 +2130,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xb2ab58(runtimeScene);
+gdjs.MainScene5Code.userFunc0x9806e8(runtimeScene);
 
 }
 
@@ -4643,7 +4627,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb7a180 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xa8dfc8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -5005,13 +4989,12 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xb7a180(runtimeScene);
+gdjs.MainScene5Code.userFunc0xa8dfc8(runtimeScene);
 
 }
 
 
-};gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBlackBGObjects2Objects = Hashtable.newFrom({"BlackBG": gdjs.MainScene5Code.GDBlackBGObjects2});
-gdjs.MainScene5Code.eventsList36 = function(runtimeScene) {
+};gdjs.MainScene5Code.eventsList36 = function(runtimeScene) {
 
 {
 
@@ -5092,22 +5075,10 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.MainScene5Code.GDBlackBGObjects2.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBlackBGObjects2Objects, -(500), -(1000), "GamesLayer");
-}
-{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects2.length ;i < len;++i) {
-    gdjs.MainScene5Code.GDBlackBGObjects2[i].setZOrder(1);
-}
-}
-{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects2.length ;i < len;++i) {
-    gdjs.MainScene5Code.GDBlackBGObjects2[i].getBehavior("Opacity").setOpacity(0);
-}
-}
-{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects2.length ;i < len;++i) {
-    gdjs.MainScene5Code.GDBlackBGObjects2[i].getBehavior("Tween").addObjectOpacityTween2("BGApacity", 200, "easeInQuart", 0.4, false);
-}
-}
+{/* Unknown object - skipped. */}
+{/* Unknown object - skipped. */}
+{/* Unknown object - skipped. */}
+{/* Unknown object - skipped. */}
 }
 
 }
@@ -5165,11 +5136,7 @@ isConditionTrue_1 = false;
 isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("BlackBG"), gdjs.MainScene5Code.GDBlackBGObjects1);
-{for(var i = 0, len = gdjs.MainScene5Code.GDBlackBGObjects1.length ;i < len;++i) {
-    gdjs.MainScene5Code.GDBlackBGObjects1[i].getBehavior("Tween").addObjectOpacityTween2("BGApacityOff", 0, "easeOutQuart", 1, true);
-}
-}
+{/* Unknown object - skipped. */}
 }
 
 }
@@ -8513,7 +8480,7 @@ gdjs.MainScene5Code.eventsList46(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0x958db0 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xd394b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -9334,7 +9301,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0x958db0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xd394b0(runtimeScene);
 
 }
 
@@ -9916,7 +9883,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xce5128 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xd41b38 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -10218,7 +10185,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xce5128(runtimeScene);
+gdjs.MainScene5Code.userFunc0xd41b38(runtimeScene);
 
 }
 
@@ -10297,7 +10264,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xce67a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xd431b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -11023,7 +10990,7 @@ gdjs.MainScene5Code.eventsList63(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDLebovskiObjects2Objects = Hashtable.newFrom({"Lebovski": gdjs.MainScene5Code.GDLebovskiObjects2});
-gdjs.MainScene5Code.userFunc0xcf4518 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xd50f28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -11125,7 +11092,7 @@ gdjs.MainScene5Code.eventsList65 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xce67a0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xd431b0(runtimeScene);
 
 }
 
@@ -11833,7 +11800,7 @@ gdjs.MainScene5Code.GDLebovskiObjects2.length = 0;
 {
 
 
-gdjs.MainScene5Code.userFunc0xcf4518(runtimeScene);
+gdjs.MainScene5Code.userFunc0xd50f28(runtimeScene);
 
 }
 
@@ -12418,10 +12385,6 @@ gdjs.MainScene5Code.GDPooObjects1.length = 0;
 gdjs.MainScene5Code.GDPooObjects2.length = 0;
 gdjs.MainScene5Code.GDPooObjects3.length = 0;
 gdjs.MainScene5Code.GDPooObjects4.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects1.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects2.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects3.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects4.length = 0;
 gdjs.MainScene5Code.GDPooGameTimerTextObjects1.length = 0;
 gdjs.MainScene5Code.GDPooGameTimerTextObjects2.length = 0;
 gdjs.MainScene5Code.GDPooGameTimerTextObjects3.length = 0;
@@ -12438,10 +12401,6 @@ gdjs.MainScene5Code.GDVirus3Objects1.length = 0;
 gdjs.MainScene5Code.GDVirus3Objects2.length = 0;
 gdjs.MainScene5Code.GDVirus3Objects3.length = 0;
 gdjs.MainScene5Code.GDVirus3Objects4.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects1.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects2.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects3.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects4.length = 0;
 gdjs.MainScene5Code.GDAllClicksObjects1.length = 0;
 gdjs.MainScene5Code.GDAllClicksObjects2.length = 0;
 gdjs.MainScene5Code.GDAllClicksObjects3.length = 0;
@@ -12466,10 +12425,6 @@ gdjs.MainScene5Code.GDStatisticsPanelObjects1.length = 0;
 gdjs.MainScene5Code.GDStatisticsPanelObjects2.length = 0;
 gdjs.MainScene5Code.GDStatisticsPanelObjects3.length = 0;
 gdjs.MainScene5Code.GDStatisticsPanelObjects4.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects1.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects2.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects3.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects4.length = 0;
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects1.length = 0;
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length = 0;
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects3.length = 0;
@@ -12506,10 +12461,6 @@ gdjs.MainScene5Code.GDArrowFieldZoneObjects1.length = 0;
 gdjs.MainScene5Code.GDArrowFieldZoneObjects2.length = 0;
 gdjs.MainScene5Code.GDArrowFieldZoneObjects3.length = 0;
 gdjs.MainScene5Code.GDArrowFieldZoneObjects4.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects1.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects2.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects3.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects4.length = 0;
 gdjs.MainScene5Code.GDClockDownObjects1.length = 0;
 gdjs.MainScene5Code.GDClockDownObjects2.length = 0;
 gdjs.MainScene5Code.GDClockDownObjects3.length = 0;
@@ -12880,10 +12831,6 @@ gdjs.MainScene5Code.GDPooObjects1.length = 0;
 gdjs.MainScene5Code.GDPooObjects2.length = 0;
 gdjs.MainScene5Code.GDPooObjects3.length = 0;
 gdjs.MainScene5Code.GDPooObjects4.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects1.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects2.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects3.length = 0;
-gdjs.MainScene5Code.GDBlackBGObjects4.length = 0;
 gdjs.MainScene5Code.GDPooGameTimerTextObjects1.length = 0;
 gdjs.MainScene5Code.GDPooGameTimerTextObjects2.length = 0;
 gdjs.MainScene5Code.GDPooGameTimerTextObjects3.length = 0;
@@ -12900,10 +12847,6 @@ gdjs.MainScene5Code.GDVirus3Objects1.length = 0;
 gdjs.MainScene5Code.GDVirus3Objects2.length = 0;
 gdjs.MainScene5Code.GDVirus3Objects3.length = 0;
 gdjs.MainScene5Code.GDVirus3Objects4.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects1.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects2.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects3.length = 0;
-gdjs.MainScene5Code.GDBlackBG2Objects4.length = 0;
 gdjs.MainScene5Code.GDAllClicksObjects1.length = 0;
 gdjs.MainScene5Code.GDAllClicksObjects2.length = 0;
 gdjs.MainScene5Code.GDAllClicksObjects3.length = 0;
@@ -12928,10 +12871,6 @@ gdjs.MainScene5Code.GDStatisticsPanelObjects1.length = 0;
 gdjs.MainScene5Code.GDStatisticsPanelObjects2.length = 0;
 gdjs.MainScene5Code.GDStatisticsPanelObjects3.length = 0;
 gdjs.MainScene5Code.GDStatisticsPanelObjects4.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects1.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects2.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects3.length = 0;
-gdjs.MainScene5Code.GDBlackBG3Objects4.length = 0;
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects1.length = 0;
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length = 0;
 gdjs.MainScene5Code.GDCloseStatistickButtonObjects3.length = 0;
@@ -12968,10 +12907,6 @@ gdjs.MainScene5Code.GDArrowFieldZoneObjects1.length = 0;
 gdjs.MainScene5Code.GDArrowFieldZoneObjects2.length = 0;
 gdjs.MainScene5Code.GDArrowFieldZoneObjects3.length = 0;
 gdjs.MainScene5Code.GDArrowFieldZoneObjects4.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects1.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects2.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects3.length = 0;
-gdjs.MainScene5Code.GDBlackBG4Objects4.length = 0;
 gdjs.MainScene5Code.GDClockDownObjects1.length = 0;
 gdjs.MainScene5Code.GDClockDownObjects2.length = 0;
 gdjs.MainScene5Code.GDClockDownObjects3.length = 0;
