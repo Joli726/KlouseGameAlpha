@@ -1735,7 +1735,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb1d860 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xafca20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2332,7 +2332,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xb1d860(runtimeScene);
+gdjs.MainScene5Code.userFunc0xafca20(runtimeScene);
 
 }
 
@@ -2839,6 +2839,12 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Poo"), gdjs.MainScene5Code.GDPooObjects2);
 gdjs.copyArray(runtimeScene.getObjects("PooHide"), gdjs.MainScene5Code.GDPooHideObjects2);
 gdjs.copyArray(runtimeScene.getObjects("PooPanel"), gdjs.MainScene5Code.GDPooPanelObjects2);
+{runtimeScene.getScene().getVariables().getFromIndex(15).setNumber(0);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(29).setNumber(0);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(37).setNumber(0);
+}
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "EnergyTimerLVL1");
 }
 {for(var i = 0, len = gdjs.MainScene5Code.GDPooObjects2.length ;i < len;++i) {
@@ -3342,6 +3348,12 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(21).setNumber(1);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(15).setNumber(0);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(29).setNumber(0);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(37).setNumber(0);
 }
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "EnergyTimerLVL1");
 }
@@ -4273,6 +4285,12 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(21).setNumber(1);
 }
+{runtimeScene.getScene().getVariables().getFromIndex(15).setNumber(0);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(29).setNumber(0);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(37).setNumber(0);
+}
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "EnergyTimerLVL1");
 }
 
@@ -4921,7 +4939,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xf7be50 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xf7d1f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -5283,7 +5301,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xf7be50(runtimeScene);
+gdjs.MainScene5Code.userFunc0xf7d1f0(runtimeScene);
 
 }
 
@@ -8876,7 +8894,7 @@ gdjs.MainScene5Code.eventsList50(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0x93dc00 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0x969908 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -10024,7 +10042,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0x93dc00(runtimeScene);
+gdjs.MainScene5Code.userFunc0x969908(runtimeScene);
 
 }
 
@@ -10319,7 +10337,7 @@ if (isConditionTrue_0) {
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDSoundButtonObjects2Objects = Hashtable.newFrom({"SoundButton": gdjs.MainScene5Code.GDSoundButtonObjects2});
 gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDMusicButtonObjects2Objects = Hashtable.newFrom({"MusicButton": gdjs.MainScene5Code.GDMusicButtonObjects2});
-gdjs.MainScene5Code.userFunc0xc39ab0 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xc3ae40 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АВТОПОВТОР МУЗЫКИ ===
 // Имя музыкального файла из Resources
@@ -10344,7 +10362,7 @@ gdjs.MainScene5Code.eventsList56 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xc39ab0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc3ae40(runtimeScene);
 
 }
 
@@ -10639,7 +10657,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xc3c828 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc3dbb8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -10941,7 +10959,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xc3c828(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc3dbb8(runtimeScene);
 
 }
 
@@ -11020,7 +11038,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xc3dea0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc3e888 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -12167,7 +12185,7 @@ gdjs.MainScene5Code.eventsList74(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.MainScene5Code.userFunc0xc04308 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc504e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -12269,7 +12287,7 @@ gdjs.MainScene5Code.eventsList76 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xc3dea0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc3e888(runtimeScene);
 
 }
 
@@ -13006,12 +13024,12 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xc04308(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc504e8(runtimeScene);
 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xc04498 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc51090 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АНТИ-АВТОКЛИК ДЛЯ КЛИКЕРА (JS EVENT) ===
 // Вставь этот код в ОДИН JavaScript-событие БЕЗ условий.
@@ -13130,7 +13148,7 @@ gdjs.MainScene5Code.eventsList77 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xc04498(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc51090(runtimeScene);
 
 }
 
@@ -13153,7 +13171,7 @@ gdjs.copyArray(runtimeScene.getObjects("TalkLebovskiText"), gdjs.MainScene5Code.
     gdjs.MainScene5Code.GDTalkLebovskiTextObjects1[i].hide();
 }
 }
-{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "Assasss22", "default", false);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "SaveAlphaVer", "default", false);
 }
 
 { //Subevents
@@ -13215,7 +13233,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Save") >= 5;
 if (isConditionTrue_0) {
-{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "Assasss22", "");
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "SaveAlphaVer", "");
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
