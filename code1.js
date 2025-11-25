@@ -1739,7 +1739,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0x8f6eb8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb834e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2336,7 +2336,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0x8f6eb8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb834e8(runtimeScene);
 
 }
 
@@ -4084,7 +4084,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xd74ab0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc87eb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -4446,7 +4446,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xd74ab0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc87eb0(runtimeScene);
 
 }
 
@@ -5181,7 +5181,7 @@ gdjs.MainScene5Code.eventsList36(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0x96a408 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0x988308 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -6329,7 +6329,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0x96a408(runtimeScene);
+gdjs.MainScene5Code.userFunc0x988308(runtimeScene);
 
 }
 
@@ -6624,7 +6624,7 @@ if (isConditionTrue_0) {
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDSoundButtonObjects2Objects = Hashtable.newFrom({"SoundButton": gdjs.MainScene5Code.GDSoundButtonObjects2});
 gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDMusicButtonObjects2Objects = Hashtable.newFrom({"MusicButton": gdjs.MainScene5Code.GDMusicButtonObjects2});
-gdjs.MainScene5Code.userFunc0xb5bb30 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0x98dec0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АВТОПОВТОР МУЗЫКИ ===
 // Имя музыкального файла из Resources
@@ -6649,7 +6649,7 @@ gdjs.MainScene5Code.eventsList42 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xb5bb30(runtimeScene);
+gdjs.MainScene5Code.userFunc0x98dec0(runtimeScene);
 
 }
 
@@ -6944,7 +6944,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb5e8a8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc59ee8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -7246,7 +7246,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xb5e8a8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc59ee8(runtimeScene);
 
 }
 
@@ -7325,7 +7325,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb485b8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc5b560 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -8472,7 +8472,7 @@ gdjs.MainScene5Code.eventsList60(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.MainScene5Code.userFunc0x95d438 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc6dbd8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -8574,7 +8574,7 @@ gdjs.MainScene5Code.eventsList62 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xb485b8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc5b560(runtimeScene);
 
 }
 
@@ -9311,12 +9311,12 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.MainScene5Code.userFunc0x95d438(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc6dbd8(runtimeScene);
 
 }
 
 
-};gdjs.MainScene5Code.userFunc0x95dfe0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc6e780 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АНТИ-АВТОКЛИК ДЛЯ КЛИКЕРА (JS EVENT) ===
 // Вставь этот код в ОДИН JavaScript-событие БЕЗ условий.
@@ -9435,7 +9435,7 @@ gdjs.MainScene5Code.eventsList63 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0x95dfe0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc6e780(runtimeScene);
 
 }
 
