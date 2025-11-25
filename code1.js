@@ -1739,7 +1739,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xebfcb8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc51ee0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2336,7 +2336,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xebfcb8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc51ee0(runtimeScene);
 
 }
 
@@ -4084,7 +4084,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDCloseStatistickButtonObjects2.length 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xbd4af0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xeb9ed8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -4446,7 +4446,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xbd4af0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xeb9ed8(runtimeScene);
 
 }
 
@@ -5181,7 +5181,7 @@ gdjs.MainScene5Code.eventsList36(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0xa32ac0 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xa330d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -6329,7 +6329,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0xa32ac0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xa330d0(runtimeScene);
 
 }
 
@@ -6624,7 +6624,7 @@ if (isConditionTrue_0) {
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDSoundButtonObjects2Objects = Hashtable.newFrom({"SoundButton": gdjs.MainScene5Code.GDSoundButtonObjects2});
 gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDMusicButtonObjects2Objects = Hashtable.newFrom({"MusicButton": gdjs.MainScene5Code.GDMusicButtonObjects2});
-gdjs.MainScene5Code.userFunc0xade440 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xadea40 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АВТОПОВТОР МУЗЫКИ ===
 // Имя музыкального файла из Resources
@@ -6649,7 +6649,7 @@ gdjs.MainScene5Code.eventsList42 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xade440(runtimeScene);
+gdjs.MainScene5Code.userFunc0xadea40(runtimeScene);
 
 }
 
@@ -6944,7 +6944,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb50860 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb50e58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -7246,7 +7246,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xb50860(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb50e58(runtimeScene);
 
 }
 
@@ -7325,7 +7325,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xb51ed8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xb524d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -8472,7 +8472,7 @@ gdjs.MainScene5Code.eventsList60(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.MainScene5Code.userFunc0x93c1f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x93c7e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -8574,7 +8574,7 @@ gdjs.MainScene5Code.eventsList62 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xb51ed8(runtimeScene);
+gdjs.MainScene5Code.userFunc0xb524d0(runtimeScene);
 
 }
 
@@ -9311,12 +9311,12 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.MainScene5Code.userFunc0x93c1f0(runtimeScene);
+gdjs.MainScene5Code.userFunc0x93c7e8(runtimeScene);
 
 }
 
 
-};gdjs.MainScene5Code.userFunc0x93cd98 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x93d390 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АНТИ-АВТОКЛИК ДЛЯ КЛИКЕРА (JS EVENT) ===
 // Вставь этот код в ОДИН JavaScript-событие БЕЗ условий.
@@ -9435,12 +9435,33 @@ gdjs.MainScene5Code.eventsList63 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0x93cd98(runtimeScene);
+gdjs.MainScene5Code.userFunc0x93d390(runtimeScene);
 
 }
 
 
-};gdjs.MainScene5Code.eventsList64 = function(runtimeScene) {
+};gdjs.MainScene5Code.asyncCallback15560180 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.MainScene5Code.localVariables);
+gdjs.MainScene5Code.localVariables.length = 0;
+}
+gdjs.MainScene5Code.idToCallbackMap.set(15560180, gdjs.MainScene5Code.asyncCallback15560180);
+gdjs.MainScene5Code.eventsList64 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.MainScene5Code.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.playerAuthentication.openAuthenticationWindow(runtimeScene), (runtimeScene) => (gdjs.MainScene5Code.asyncCallback15560180(runtimeScene, asyncObjectsList)), 15560180, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.MainScene5Code.eventsList65 = function(runtimeScene) {
 
 {
 
@@ -9908,6 +9929,25 @@ let isConditionTrue_0 = false;
 {
 {gdjs.evtTools.leaderboards.saveConnectedPlayerScore(runtimeScene, "8906de54-7284-4df0-a7c6-50e7dd8f9f15", runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.playerAuthentication.hasLoggedIn();
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.playerAuthentication.isAuthenticated());
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.MainScene5Code.eventsList64(runtimeScene);} //End of subevents
 }
 
 }
@@ -10383,7 +10423,7 @@ gdjs.MainScene5Code.GDMuney100ButtonObjects2.length = 0;
 gdjs.MainScene5Code.GDMuney100ButtonObjects3.length = 0;
 gdjs.MainScene5Code.GDMuney100ButtonObjects4.length = 0;
 
-gdjs.MainScene5Code.eventsList64(runtimeScene);
+gdjs.MainScene5Code.eventsList65(runtimeScene);
 gdjs.MainScene5Code.GDPhoneObjects1.length = 0;
 gdjs.MainScene5Code.GDPhoneObjects2.length = 0;
 gdjs.MainScene5Code.GDPhoneObjects3.length = 0;
