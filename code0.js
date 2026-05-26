@@ -15,41 +15,7 @@ gdjs.LoadingCode.GDClickTextObjects3= [];
 gdjs.LoadingCode.GDClickTextObjects4= [];
 
 
-gdjs.LoadingCode.asyncCallback13649108 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-gdjs.LoadingCode.localVariables.length = 0;
-}
-gdjs.LoadingCode.idToCallbackMap.set(13649108, gdjs.LoadingCode.asyncCallback13649108);
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.playerAuthentication.openAuthenticationWindow(runtimeScene), (runtimeScene) => (gdjs.LoadingCode.asyncCallback13649108(runtimeScene, asyncObjectsList)), 13649108, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-
-{ //Subevents
-gdjs.LoadingCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
 
 };gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDClickTextObjects2Objects = Hashtable.newFrom({"ClickText": gdjs.LoadingCode.GDClickTextObjects2});
 gdjs.LoadingCode.asyncCallback16447972 = function (runtimeScene, asyncObjectsList) {
@@ -61,7 +27,7 @@ gdjs.LoadingCode.GDClickTextObjects2.length = 0;
 gdjs.LoadingCode.localVariables.length = 0;
 }
 gdjs.LoadingCode.idToCallbackMap.set(16447972, gdjs.LoadingCode.asyncCallback16447972);
-gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
+gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -87,7 +53,7 @@ gdjs.copyArray(runtimeScene.getObjects("KlouserGameLogo"), gdjs.LoadingCode.GDKl
 gdjs.LoadingCode.localVariables.length = 0;
 }
 gdjs.LoadingCode.idToCallbackMap.set(16450820, gdjs.LoadingCode.asyncCallback16450820);
-gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
+gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -110,7 +76,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables
 gdjs.LoadingCode.localVariables.length = 0;
 }
 gdjs.LoadingCode.idToCallbackMap.set(16454692, gdjs.LoadingCode.asyncCallback16454692);
-gdjs.LoadingCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
+gdjs.LoadingCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -137,11 +103,11 @@ gdjs.copyArray(asyncObjectsList.getObjects("KlouserGameLogo"), gdjs.LoadingCode.
 }
 
 { //Subevents
-gdjs.LoadingCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.LoadingCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.LoadingCode.localVariables.length = 0;
 }
 gdjs.LoadingCode.idToCallbackMap.set(16454596, gdjs.LoadingCode.asyncCallback16454596);
-gdjs.LoadingCode.eventsList5 = function(runtimeScene, asyncObjectsList) {
+gdjs.LoadingCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -169,11 +135,11 @@ gdjs.copyArray(asyncObjectsList.getObjects("KlouserGameLogo"), gdjs.LoadingCode.
 }
 
 { //Subevents
-gdjs.LoadingCode.eventsList5(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.LoadingCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.LoadingCode.localVariables.length = 0;
 }
 gdjs.LoadingCode.idToCallbackMap.set(16454068, gdjs.LoadingCode.asyncCallback16454068);
-gdjs.LoadingCode.eventsList6 = function(runtimeScene) {
+gdjs.LoadingCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -190,39 +156,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 }
 
 
-};gdjs.LoadingCode.eventsList7 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("KlouserGameLogo"), gdjs.LoadingCode.GDKlouserGameLogoObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.LoadingCode.GDKlouserGameLogoObjects1.length;i<l;++i) {
-    if ( gdjs.LoadingCode.GDKlouserGameLogoObjects1[i].getBehavior("Opacity").getOpacity() == 255 ) {
-        isConditionTrue_0 = true;
-        gdjs.LoadingCode.GDKlouserGameLogoObjects1[k] = gdjs.LoadingCode.GDKlouserGameLogoObjects1[i];
-        ++k;
-    }
-}
-gdjs.LoadingCode.GDKlouserGameLogoObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16453508);
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Отрыжка.wav", 1, false, 100, 1);
-}
-
-{ //Subevents
-gdjs.LoadingCode.eventsList6(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.LoadingCode.eventsList8 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -246,7 +180,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.LoadingCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -279,24 +213,35 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("KlouserGameLogo"), gdjs.LoadingCode.GDKlouserGameLogoObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.playerAuthentication.isAuthenticated();
+for (var i = 0, k = 0, l = gdjs.LoadingCode.GDKlouserGameLogoObjects1.length;i<l;++i) {
+    if ( gdjs.LoadingCode.GDKlouserGameLogoObjects1[i].getBehavior("Opacity").getOpacity() == 255 ) {
+        isConditionTrue_0 = true;
+        gdjs.LoadingCode.GDKlouserGameLogoObjects1[k] = gdjs.LoadingCode.GDKlouserGameLogoObjects1[i];
+        ++k;
+    }
+}
+gdjs.LoadingCode.GDKlouserGameLogoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.playerAuthentication.isAuthenticationWindowOpen());
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16453508);
+}
 }
 if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Отрыжка.wav", 1, false, 100, 1);
+}
 
 { //Subevents
-gdjs.LoadingCode.eventsList7(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList5(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.LoadingCode.eventsList9 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -326,7 +271,7 @@ gdjs.copyArray(runtimeScene.getObjects("CrunchStudio"), gdjs.LoadingCode.GDCrunc
 }
 
 { //Subevents
-gdjs.LoadingCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
@@ -354,7 +299,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.LoadingCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -407,7 +352,7 @@ gdjs.copyArray(runtimeScene.getObjects("ClickText"), gdjs.LoadingCode.GDClickTex
 }
 
 { //Subevents
-gdjs.LoadingCode.eventsList8(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 }
@@ -431,7 +376,7 @@ gdjs.LoadingCode.GDClickTextObjects2.length = 0;
 gdjs.LoadingCode.GDClickTextObjects3.length = 0;
 gdjs.LoadingCode.GDClickTextObjects4.length = 0;
 
-gdjs.LoadingCode.eventsList9(runtimeScene);
+gdjs.LoadingCode.eventsList7(runtimeScene);
 gdjs.LoadingCode.GDCrunchStudioObjects1.length = 0;
 gdjs.LoadingCode.GDCrunchStudioObjects2.length = 0;
 gdjs.LoadingCode.GDCrunchStudioObjects3.length = 0;
