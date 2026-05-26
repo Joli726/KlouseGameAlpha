@@ -825,6 +825,12 @@ gdjs.MainScene6Code.GDGuestProfilesPanelObjects3= [];
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects4= [];
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects5= [];
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects6= [];
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects1= [];
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects2= [];
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects3= [];
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects4= [];
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects5= [];
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects6= [];
 
 
 gdjs.MainScene6Code.eventsList0 = function(runtimeScene) {
@@ -2037,7 +2043,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene6Code.userFunc0xbe5f40 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene6Code.userFunc0x1bdcc00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2649,7 +2655,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene6Code.GDEne
 {
 
 
-gdjs.MainScene6Code.userFunc0xbe5f40(runtimeScene);
+gdjs.MainScene6Code.userFunc0x1bdcc00(runtimeScene);
 
 }
 
@@ -5756,7 +5762,7 @@ for(var i = 0, len = gdjs.MainScene6Code.GDChekOtherText6Objects2.length ;i < le
 }
 
 
-};gdjs.MainScene6Code.userFunc0xcfc490 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene6Code.userFunc0x1c88c68 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -6205,7 +6211,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene6Code.GDMone
 {
 
 
-gdjs.MainScene6Code.userFunc0xcfc490(runtimeScene);
+gdjs.MainScene6Code.userFunc0x1c88c68(runtimeScene);
 
 }
 
@@ -9788,7 +9794,7 @@ gdjs.MainScene6Code.eventsList56(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene6Code.mapOfGDgdjs_9546MainScene6Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene6Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene6Code.userFunc0xf4a388 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene6Code.userFunc0x13f0758 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -10922,7 +10928,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene6Code.GDPhoneObje
 {
 
 
-gdjs.MainScene6Code.userFunc0xf4a388(runtimeScene);
+gdjs.MainScene6Code.userFunc0x13f0758(runtimeScene);
 
 }
 
@@ -11217,7 +11223,7 @@ if (isConditionTrue_0) {
 
 };gdjs.MainScene6Code.mapOfGDgdjs_9546MainScene6Code_9546GDSoundButtonObjects2Objects = Hashtable.newFrom({"SoundButton": gdjs.MainScene6Code.GDSoundButtonObjects2});
 gdjs.MainScene6Code.mapOfGDgdjs_9546MainScene6Code_9546GDMusicButtonObjects2Objects = Hashtable.newFrom({"MusicButton": gdjs.MainScene6Code.GDMusicButtonObjects2});
-gdjs.MainScene6Code.userFunc0x16e1448 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene6Code.userFunc0x1454dc8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АВТОПОВТОР МУЗЫКИ ===
 // Имя музыкального файла из Resources
@@ -11242,7 +11248,7 @@ gdjs.MainScene6Code.eventsList62 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene6Code.userFunc0x16e1448(runtimeScene);
+gdjs.MainScene6Code.userFunc0x1454dc8(runtimeScene);
 
 }
 
@@ -11530,7 +11536,7 @@ for(var i = 0, len = gdjs.MainScene6Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene6Code.userFunc0xbb4378 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene6Code.userFunc0x13ff730 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -11832,7 +11838,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene6Code.GDB
 {
 
 
-gdjs.MainScene6Code.userFunc0xbb4378(runtimeScene);
+gdjs.MainScene6Code.userFunc0x13ff730(runtimeScene);
 
 }
 
@@ -11911,7 +11917,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene6Code.userFunc0xf33a88 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene6Code.userFunc0x140fed8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -13058,7 +13064,7 @@ gdjs.MainScene6Code.eventsList80(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.MainScene6Code.userFunc0x1d40b98 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene6Code.userFunc0x1dacef0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -13160,7 +13166,7 @@ gdjs.MainScene6Code.eventsList82 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene6Code.userFunc0xf33a88(runtimeScene);
+gdjs.MainScene6Code.userFunc0x140fed8(runtimeScene);
 
 }
 
@@ -13890,12 +13896,12 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.MainScene6Code.userFunc0x1d40b98(runtimeScene);
+gdjs.MainScene6Code.userFunc0x1dacef0(runtimeScene);
 
 }
 
 
-};gdjs.MainScene6Code.userFunc0xa1aae0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene6Code.userFunc0x1dad088 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АНТИ-АВТОКЛИК ДЛЯ КЛИКЕРА (JS EVENT) ===
 // Вставь этот код в ОДИН JavaScript-событие БЕЗ условий.
@@ -14014,12 +14020,27 @@ gdjs.MainScene6Code.eventsList83 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene6Code.userFunc0xa1aae0(runtimeScene);
+gdjs.MainScene6Code.userFunc0x1dad088(runtimeScene);
 
 }
 
 
 };gdjs.MainScene6Code.eventsList84 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("PlayerNameKlouserGuest"), gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects1);
+{for(var i = 0, len = gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects1.length ;i < len;++i) {
+    gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects1[i].getBehavior("Text").setText(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
+}
+}
+}
+
+}
+
 
 {
 
@@ -14058,7 +14079,7 @@ gdjs.copyArray(runtimeScene.getObjects("TalkLebovskiText"), gdjs.MainScene6Code.
     gdjs.MainScene6Code.GDGuestProfilesPanelObjects1[i].hide();
 }
 }
-{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "SaveGameDataSSSSSS", "default", false);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "SaveGameDataSSSSSSSS", "default", false);
 }
 
 { //Subevents
@@ -14132,7 +14153,7 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "f56210bb-af69-4a07-8d2e-5cc1904ca360", runtimeScene.getScene().getVariables().getFromIndex(30).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
 }
-{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "SaveGameDataSSSSSS", "");
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "SaveGameDataSSSSSSSS", "");
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
@@ -15310,6 +15331,12 @@ gdjs.MainScene6Code.GDGuestProfilesPanelObjects3.length = 0;
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects4.length = 0;
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects5.length = 0;
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects6.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects1.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects2.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects3.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects4.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects5.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects6.length = 0;
 
 gdjs.MainScene6Code.eventsList84(runtimeScene);
 gdjs.MainScene6Code.GDPhoneObjects1.length = 0;
@@ -16128,6 +16155,12 @@ gdjs.MainScene6Code.GDGuestProfilesPanelObjects3.length = 0;
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects4.length = 0;
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects5.length = 0;
 gdjs.MainScene6Code.GDGuestProfilesPanelObjects6.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects1.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects2.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects3.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects4.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects5.length = 0;
+gdjs.MainScene6Code.GDPlayerNameKlouserGuestObjects6.length = 0;
 
 
 return;

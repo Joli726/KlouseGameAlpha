@@ -299,7 +299,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).setString(gdjs.evtsExt__UUID__GenerateUUIDv4.func(runtimeScene, null));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(0).setString("Guest" + gdjs.evtTools.common.toString(gdjs.random(99999)));
+{runtimeScene.getGame().getVariables().getFromIndex(0).setString("Klouser" + gdjs.evtTools.common.toString(gdjs.random(99999)));
 }
 {gdjs.evtTools.storage.writeStringInJSONFile("PlayerProfile", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getGame().getVariables().getFromIndex(1).getAsString());
 }
@@ -340,7 +340,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() == "");
 }
 if (!elseEventsChainSatisfied && isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).setString("Guest" + gdjs.evtTools.common.toString(gdjs.random(99999)));
+{runtimeScene.getGame().getVariables().getFromIndex(0).setString("Klouser" + gdjs.evtTools.common.toString(gdjs.random(99999)));
 }
 {gdjs.evtTools.storage.writeStringInJSONFile("PlayerProfile", runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
 }
