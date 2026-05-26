@@ -2056,7 +2056,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xcf2f20 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xda00e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === НАСТРОЙКИ ===
 const SPEED = 500;
@@ -2668,7 +2668,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnergyTimer"), gdjs.MainScene5Code.GDEne
 {
 
 
-gdjs.MainScene5Code.userFunc0xcf2f20(runtimeScene);
+gdjs.MainScene5Code.userFunc0xda00e8(runtimeScene);
 
 }
 
@@ -5775,7 +5775,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDChekOtherText6Objects2.length ;i < le
 }
 
 
-};gdjs.MainScene5Code.userFunc0xab6dd0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x9f4e38 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StatisticsPanel";
 const VAR_NAME = "PanelStatistic";
@@ -6224,7 +6224,7 @@ gdjs.copyArray(runtimeScene.getObjects("MoneySpent"), gdjs.MainScene5Code.GDMone
 {
 
 
-gdjs.MainScene5Code.userFunc0xab6dd0(runtimeScene);
+gdjs.MainScene5Code.userFunc0x9f4e38(runtimeScene);
 
 }
 
@@ -9807,7 +9807,7 @@ gdjs.MainScene5Code.eventsList57(runtimeScene);} //End of subevents
 
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDBuyButtonPhone6Objects2Objects = Hashtable.newFrom({"BuyButtonPhone6": gdjs.MainScene5Code.GDBuyButtonPhone6Objects2});
-gdjs.MainScene5Code.userFunc0xcedee0 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xe913a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "StorePanel";
 const VAR_NAME = "BuyPhonePanel";
@@ -10941,7 +10941,7 @@ gdjs.copyArray(runtimeScene.getObjects("Phone"), gdjs.MainScene5Code.GDPhoneObje
 {
 
 
-gdjs.MainScene5Code.userFunc0xcedee0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xe913a0(runtimeScene);
 
 }
 
@@ -11236,7 +11236,7 @@ if (isConditionTrue_0) {
 
 };gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDSoundButtonObjects2Objects = Hashtable.newFrom({"SoundButton": gdjs.MainScene5Code.GDSoundButtonObjects2});
 gdjs.MainScene5Code.mapOfGDgdjs_9546MainScene5Code_9546GDMusicButtonObjects2Objects = Hashtable.newFrom({"MusicButton": gdjs.MainScene5Code.GDMusicButtonObjects2});
-gdjs.MainScene5Code.userFunc0xc34bb0 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainScene5Code.userFunc0xa79a28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АВТОПОВТОР МУЗЫКИ ===
 // Имя музыкального файла из Resources
@@ -11261,7 +11261,7 @@ gdjs.MainScene5Code.eventsList63 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xc34bb0(runtimeScene);
+gdjs.MainScene5Code.userFunc0xa79a28(runtimeScene);
 
 }
 
@@ -11549,7 +11549,7 @@ for(var i = 0, len = gdjs.MainScene5Code.GDAttachText3Objects2.length ;i < len;+
 }
 
 
-};gdjs.MainScene5Code.userFunc0xd73500 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x9c5380 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "AttachmentPanel";
 const VAR_NAME = "AttachPanel";
@@ -11851,7 +11851,7 @@ gdjs.copyArray(runtimeScene.getObjects("BuyPhoneText6"), gdjs.MainScene5Code.GDB
 {
 
 
-gdjs.MainScene5Code.userFunc0xd73500(runtimeScene);
+gdjs.MainScene5Code.userFunc0x9c5380(runtimeScene);
 
 }
 
@@ -11930,7 +11930,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MainScene5Code.userFunc0xd1d818 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xc6ce38 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === ОДИН JS EVENT ДЛЯ СИСТЕМЫ БОССОВ НА ПЕРЕМЕННЫХ ===
 // Вставь этот код в ОДНО JavaScript-событие без условий.
@@ -13077,7 +13077,7 @@ gdjs.MainScene5Code.eventsList81(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.MainScene5Code.userFunc0xd095c0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0x9e8bf0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const PANEL_OBJ = "PersonalBussines";
 const VAR_NAME = "BossGamePanel";
@@ -13179,7 +13179,7 @@ gdjs.MainScene5Code.eventsList83 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xd1d818(runtimeScene);
+gdjs.MainScene5Code.userFunc0xc6ce38(runtimeScene);
 
 }
 
@@ -13909,12 +13909,12 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xd095c0(runtimeScene);
+gdjs.MainScene5Code.userFunc0x9e8bf0(runtimeScene);
 
 }
 
 
-};gdjs.MainScene5Code.userFunc0xd09770 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MainScene5Code.userFunc0xf3e4b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // === АНТИ-АВТОКЛИК ДЛЯ КЛИКЕРА (JS EVENT) ===
 // Вставь этот код в ОДИН JavaScript-событие БЕЗ условий.
@@ -14033,7 +14033,7 @@ gdjs.MainScene5Code.eventsList84 = function(runtimeScene) {
 {
 
 
-gdjs.MainScene5Code.userFunc0xd09770(runtimeScene);
+gdjs.MainScene5Code.userFunc0xf3e4b0(runtimeScene);
 
 }
 
@@ -14056,7 +14056,7 @@ gdjs.copyArray(runtimeScene.getObjects("TalkLebovskiText"), gdjs.MainScene5Code.
     gdjs.MainScene5Code.GDTalkLebovskiTextObjects1[i].hide();
 }
 }
-{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "SaveGameDataSSS", "default", true);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "SaveGameDataSSSS", "default", true);
 }
 
 { //Subevents
@@ -14118,19 +14118,19 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Save") >= 10;
 if (isConditionTrue_0) {
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "8906de54-7284-4df0-a7c6-50e7dd8f9f15", runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), "");
+{gdjs.evtTools.leaderboards.saveConnectedPlayerScore(runtimeScene, "8906de54-7284-4df0-a7c6-50e7dd8f9f15", runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber());
 }
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "88d7e837-f18c-420c-9280-4fc864557e6f", runtimeScene.getScene().getVariables().getFromIndex(24).getAsNumber(), "");
+{gdjs.evtTools.leaderboards.saveConnectedPlayerScore(runtimeScene, "88d7e837-f18c-420c-9280-4fc864557e6f", runtimeScene.getScene().getVariables().getFromIndex(24).getAsNumber());
 }
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "3bb879a8-4364-4921-b485-e8bcb3975d1b", runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber(), "");
+{gdjs.evtTools.leaderboards.saveConnectedPlayerScore(runtimeScene, "3bb879a8-4364-4921-b485-e8bcb3975d1b", runtimeScene.getScene().getVariables().getFromIndex(23).getAsNumber());
 }
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "5b490b5d-cdd6-4d0c-b602-f383b89a090d", runtimeScene.getScene().getVariables().getFromIndex(26).getAsNumber(), "");
+{gdjs.evtTools.leaderboards.saveConnectedPlayerScore(runtimeScene, "5b490b5d-cdd6-4d0c-b602-f383b89a090d", runtimeScene.getScene().getVariables().getFromIndex(26).getAsNumber());
 }
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "48edc236-9671-49cc-80bc-480e2f0228ff", runtimeScene.getScene().getVariables().getFromIndex(27).getAsNumber(), "");
+{gdjs.evtTools.leaderboards.saveConnectedPlayerScore(runtimeScene, "48edc236-9671-49cc-80bc-480e2f0228ff", runtimeScene.getScene().getVariables().getFromIndex(27).getAsNumber());
 }
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "f56210bb-af69-4a07-8d2e-5cc1904ca360", runtimeScene.getScene().getVariables().getFromIndex(28).getAsNumber(), "");
+{gdjs.evtTools.leaderboards.saveConnectedPlayerScore(runtimeScene, "f56210bb-af69-4a07-8d2e-5cc1904ca360", runtimeScene.getScene().getVariables().getFromIndex(28).getAsNumber());
 }
-{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "SaveGameDataSSS", "");
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "SaveGameDataSSSS", "");
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Save");
 }
@@ -14484,20 +14484,6 @@ gdjs.MainScene5Code.eventsList83(runtimeScene);
 
 
 gdjs.MainScene5Code.eventsList84(runtimeScene);
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.playerAuthentication.isAuthenticated());
-if (isConditionTrue_0) {
-{gdjs.playerAuthentication.displayAuthenticationBanner(runtimeScene);
-}
-}
-
 }
 
 
