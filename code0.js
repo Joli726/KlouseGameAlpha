@@ -264,6 +264,8 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("CrunchStudio"), gdjs.LoadingCode.GDCrunchStudioObjects1);
+{gdjs.saveState.restoreGameSaveStateFromStorage(runtimeScene, "SUKASHRANI", "default", false);
+}
 {gdjs.evtTools.sound.preloadMusic(runtimeScene, "Отрыжка.wav");
 }
 {for(var i = 0, len = gdjs.LoadingCode.GDCrunchStudioObjects1.length ;i < len;++i) {
